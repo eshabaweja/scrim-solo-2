@@ -2,12 +2,80 @@
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
-  color: #ffffff;
+  color: #2B283A;
+}
+
+.location-icon{
+  padding: 4px;
+  height: 11px;
 }
 
 .Header{
   background-color: #F55A5A;
   height: 55px;
+  margin-bottom: 100px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Header>*{
+  color: #ffffff;
+}
+
+.image{
+  width: 250px;
+  height: 336px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.Entry{
+  display: flex;
+  margin: 20px;
+}
+
+.diary{
+  width: 326px;
+  display: flex;
+  margin: 20px;
+  align-items: left;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.top-line{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.top-line>*{
+  margin: 0 3px;
+}
+.place{
+  text-transform:uppercase;
+  letter-spacing: 0.17em;
+  font-size: 11px;
+}
+
+.location{
+  color: #918E9B;
+  font-size: 11px;
+}
+
+.name{
+  font-size: 25px;
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+
+.date{
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.description{
+  font-size: 11px;
 }
